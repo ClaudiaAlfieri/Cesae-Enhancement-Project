@@ -1,0 +1,54 @@
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+/* Footer */
+
+footer {
+    background-color: #343a40;
+    color: white;
+}
+
+/* Missão 2: De Volta ao Topo!  */
+#voltarTopo:hover {
+    background-color: #0056b3; 
+}
+
+/* Missão 3: Formulário de Contato Turbinado!  */
+
+.error-message {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+/* Desafio: Imperador das APIs */
+/* Google Maps */
+
+  #map {
+    width: 100%;
+    height: 100%;
+    margin:20px 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    flex-grow: 1;
+    align-self: center;
+  }
+
+/* Desafio: Imperador das APIs */
+/* Weather */
+
+.weather-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;;
+    gap: 30px;
+}
+.weather-info p {
+    margin: 0;
+}
+ 
